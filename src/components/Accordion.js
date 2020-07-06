@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-const Accordian = ({ items }) => {
+const Accordion = ({ items }) => {
 
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -28,4 +28,4 @@ const Accordian = ({ items }) => {
     </div>
 };
 
-export default Accordian;
+export default Accordion;
